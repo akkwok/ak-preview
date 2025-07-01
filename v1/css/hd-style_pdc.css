@@ -566,7 +566,7 @@ body {
 
 #hd h2,
 #hd .h2 {
-    font-family: "TTNormsPro", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-family: "TTNormsProMedium", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
     font-size: 3em;
     font-weight: normal;
     line-height: 1.125;
@@ -576,11 +576,21 @@ body {
     word-break: normal;
     word-wrap: normal
 }
-
+#hd h2.tagline{
+    font-family: "TTNormsProMedium", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    line-height: 1.125;
+    color: inherit !important;
+    letter-spacing: 0;
+    margin-bottom: .5em;
+    word-break: normal;
+    word-wrap: normal
+}
 #hd h3,
 #hd .h3 {
-    font-family: "TTNormsProMedium", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
-    font-size: 2em;
+    font-family: "TTNormsProRegular", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-size: 2.125em;
     font-weight: normal;
     line-height: 1.125;
     letter-spacing: 0;
@@ -589,7 +599,7 @@ body {
 }
 
 #hd .h3.mini-title {
-    font-family: "TTNormsProLight", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-family: "TTNormsProMedium", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
     font-size: 1.4em;
     font-weight: normal;
 }
@@ -634,12 +644,12 @@ body {
 #hd small,
 #hd a,
 #hd li {
-    font-family: "TTNormsPro", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+    font-family: "TTNormsProRegular", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 }
 
 #hd p {
-    font-size: 1.1em;
-    line-height: 1.5;
+    font-size: 1.25em;
+    line-height: 1.25;
     letter-spacing: 0;
     font-weight: 300
 }
@@ -782,7 +792,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-    margin: 0;
+    /* margin: 0; */
 }
 
 #hd .color-gradient-light>* {
@@ -2139,47 +2149,22 @@ screen and (max-width: 1023px) {
     z-index: 2
 }
 
-#hd .sec-kv .hd-title h2 {
-    font-family: "TTNormsProRegular", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
-    font-size: 3em;
-    margin-bottom: .3em
-}
-
-#hd .sec-kv .hd-title h2 .sec_title {
-    font-size: 0.68em;
-    font-family: "TTNormsProLight", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
-}
-
-#hd .sec-kv .hd-title h3 {
-    margin-bottom: .6em;
-    font-family: "TTNormsProLight", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
-}
 
 #hd .sec-kv .hd-title h4 {
     font-size: 2em;
     font-family: "TTNormsProLight", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
 }
 
-#hd .sec-kv .hd-title p.h4 {
-    font-size: 2em;
-    font-family: "TTNormsProLight", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
-}
 
 #hd .sec-kv .hd-title h2 strong {
     display: block;
-    font-family: "TTNormsPro", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-family: "TTNormsProMedium", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
     font-size: 1.6em;
     font-weight: normal;
     margin-top: 0.15em;
     text-transform: uppercase
 }
 
-#hd .sec-kv .hd-title p {
-    font-size: 1.1em;
-    line-height: 1.5;
-    letter-spacing: 0;
-    font-weight: 300;
-}
 
 #hd .section-features .get_started {
     margin-top: 3vw;
@@ -2193,14 +2178,14 @@ screen and (max-width: 1023px) {
 #hd .section-features .get_started a {
     display: inline-block;
     margin: 10px 0;
-    padding: 1em 4em 1.2em;
-    background: -webkit-linear-gradient(right, #000 0%, #008cf7 15%, #00dfed 85%, #000 100%);
-    background: linear-gradient(to right, #000 0%, #008cf7 15%, #00dfed 85%, #000 100%);
+    padding: 1em 1.5em 1em;
+    background: #008cf7;
+    /* background: linear-gradient(to right, #000 0%, #008cf7 15%, #00dfed 85%, #000 100%); */
 }
 
 #hd .section-features .get_started a span {
     font-size: 2em;
-    text-shadow: 2px 6px 6px rgba(0, 0, 0, 1), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: none;
 }
 
 @media screen and (min-width: 2560px) {
@@ -5387,13 +5372,14 @@ screen and (max-width: 1023px) {
 }
 
 #hd #overview-nav ul li a {
-    display: inline-block;
-    width: 10px;
+        display: inline-block;
+    width: 25px;
     position: absolute;
     padding: 0;
-    height: 10px;
+    height: 25px;
     z-index: 9999;
-    top: 0
+    top: -7px;
+    left: -7px;
 }
 
 #hd #overview-nav ul li div {
@@ -5620,7 +5606,7 @@ screen and (max-width: 1023px) {
 }
 
 #colorbox #cboxTitle {
-    font-family: "TTNormsPro", "Roboto", "Microsoft Jhenghei", "Microsoft YaHei", "Segoe UI", "Arial", "Helvetica", sans-serif;
+    font-family: "TTNormsProRegular", "Roboto", "Microsoft Jhenghei", "Microsoft YaHei", "Segoe UI", "Arial", "Helvetica", sans-serif;
     color: #000 !important;
     /* font-weight: 600 !important; */
     font-size: 1.2em;
@@ -5637,7 +5623,7 @@ screen and (max-width: 1023px) {
 }
 
 #colorbox #cboxCurrent {
-    font-family: "TTNormsPro", "Roboto", "Microsoft Jhenghei", "Microsoft YaHei", "Segoe UI", "Arial", "Helvetica", sans-serif;
+    font-family: "TTNormsProRegular", "Roboto", "Microsoft Jhenghei", "Microsoft YaHei", "Segoe UI", "Arial", "Helvetica", sans-serif;
     color: #000 !important;
     /* font-weight: 600 !important; */
     font-size: 1.2em;
@@ -6031,7 +6017,7 @@ screen and (max-width: 1023px) {
 
 
 #hd .section-features .grid .p1 {
-    font-family: "TTNormsPro", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-family: "TTNormsProRegular", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
     font-size: 2em;
     color: #fff;
     line-height: 1.1em;
@@ -6039,7 +6025,7 @@ screen and (max-width: 1023px) {
 }
 
 #hd .section-features .grid .p2 {
-    font-family: "TTNormsPro", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-family: "TTNormsProRegular", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
     font-size: 1.1em;
     color: #fff;
     font-weight: normal;
@@ -6106,7 +6092,7 @@ screen and (max-width: 1023px) {
 }
 
 #hd .section-features .grid .box-2 .p1 {
-    font-family: "TTNormsPro", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-family: "TTNormsProRegular", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
     /* color: #77b900; */
     font-size: 2em;
 }
@@ -6116,7 +6102,7 @@ screen and (max-width: 1023px) {
 }
 
 #hd .section-features .grid .box-2 .p3 {
-    font-family: "TTNormsPro", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-family: "TTNormsProRegular", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
     font-size: 1.4em;
     margin-bottom: 0px;
 }
@@ -6434,10 +6420,6 @@ screen and (max-width: 1023px) {
     text-align: center;
 }
 
-#hd .section-desktop .text-content h2 {
-    margin-bottom: 0.5em;
-}
-
 #hd .section-desktop ..h3 {}
 
 #hd .section-desktop .intro {
@@ -6455,6 +6437,7 @@ screen and (max-width: 1023px) {
     display: inline-block;
     margin: 1em auto 0.5em;
     width: 100%;
+    color: #fff;
 }
 
 #hd .section-desktop .intro .text {
@@ -6473,13 +6456,12 @@ screen and (max-width: 1023px) {
 #hd .section-desktop .intro .image {
     width: 50%;
 }
-
 #hd .section-desktop .mini-title {
     color: #fff;
 }
 
 #hd .section-desktop .intro .text b {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #11d2ff;
     /* font-weight: 300; */
 }
@@ -6517,9 +6499,7 @@ screen and (max-width: 1023px) {
 }
 
 @media screen and (max-width: 1200px) {
-    #hd .section-desktop .mini-title {
-        font-size: 2em;
-    }
+    
 }
 
 @media screen and (max-width: 950px) {
@@ -6543,9 +6523,6 @@ screen and (max-width: 1023px) {
         padding-bottom: 30px;
     }
 
-    #hd .section-desktop .mini-title {
-        font-size: 1.5em;
-    }
 }
 
 /*started*/
@@ -6563,31 +6540,27 @@ screen and (max-width: 1023px) {
     text-align: center;
 }
 
-#hd .section-started .text-content h2 {
-    margin-bottom: 0.5em;
-}
 #hd .section-started .txt_Notify{
     display: inline-block;
-    margin: 1em 0 0.5em;
+    margin: 1em 0 1em;
     padding: 10px 2em;
-    background: -webkit-linear-gradient(right, #000 0%, #008cf7 15%, #00dfed 85%, #000 100%);
-    background: linear-gradient(to right, #000 0%, #008cf7 15%, #00dfed 85%, #000 100%);
-    font-size: 3em;
+    background: #37788c;
+    /* background: linear-gradient(to right, #000 0%, #008cf7 15%, #00dfed 85%, #000 100%); */
+    font-size: 2em;
     text-shadow: 1px 5px 8px rgba(0, 0, 0, 0.9);
 }
 #hd .section-started a.btn_Notify {
     display: inline-block;
     margin: 1em 0 1em;
-    padding: 1em 4em 1.2em;
-    background: -webkit-linear-gradient(right, #000 0%, #008cf7 15%, #00dfed 85%, #000 100%);
-    background: linear-gradient(to right, #000 0%, #008cf7 15%, #00dfed 85%, #000 100%);
+    padding: 1em 1.5em 1em;
+    background: #008cf7;
+    /* background: linear-gradient(to right, #000 0%, #008cf7 15%, #00dfed 85%, #000 100%); */
 }
 
 #hd .section-started a.btn_Notify span {
-
-    padding: 10px 2em;
-    font-size: 3em;
-    text-shadow: 1px 5px 8px rgba(0, 0, 0, 0.9);
+    /* padding: 10px 2em; */
+    font-size: 2em;
+    /* text-shadow: 1px 5px 8px rgba(0, 0, 0, 0.9); */
 }
 #hd .section-started p.h3 {}
 
@@ -6627,12 +6600,6 @@ screen and (max-width: 1023px) {
     padding: 0px 30px;
     text-align: center;
 }
-
-#hd .section-application .text-content h2 {
-    margin-bottom: 0.5em;
-}
-
-#hd .section-application p.h3 {}
 
 #hd .section-application .intro {
     position: relative;
@@ -6731,7 +6698,7 @@ screen and (max-width: 1023px) {
 
 #hd .section-application .list .entry h4 {
     font-size: 1.2em;
-    font-family: "TTNormsPro", "TTNorms", "MyriadPro", "Roboto", "Arial", "Apple LiGothic Medium", "STHeiti Light", "Microsoft JhengHei", sans-serif;
+    font-family: "TTNormsProRegular", "TTNorms", "MyriadPro", "Roboto", "Arial", "Apple LiGothic Medium", "STHeiti Light", "Microsoft JhengHei", sans-serif;
     margin: 0.5em 0 0.5em 0;
     text-align: center;
     line-height: 1.1em;
@@ -6796,6 +6763,10 @@ screen and (max-width: 1023px) {
 
     #hd .section-application .mini-title {
         font-size: 1.5em;
+    }
+    #hd .section-started a.btn_Notify span{
+        padding: 10px 0;
+        font-size: 2em;
     }
 }
 
@@ -6910,9 +6881,6 @@ screen and (max-width: 1023px) {
     /* background: #e6ebf0; */
 }
 
-#hd .section-security h2 {
-    margin-bottom: 0.5em;
-}
 #hd .section-security h2 sup{
     background-image: linear-gradient(90deg, #ff42e7 0%, #ff42e7 18%, #ff42e7 85%, #ff42e7);
 }
@@ -6962,27 +6930,6 @@ screen and (max-width: 1023px) {
     padding: 0 0 30px 0;
 }
 
-#hd .section-security .list .entry h3 {
-    font-size: 1.6em;
-    font-family: "TTNormsProMedium", "TTNorms", "MyriadPro", "Roboto", "Arial", "Apple LiGothic Medium", "STHeiti Light", "Microsoft JhengHei", sans-serif;
-    margin: 0 0 0.5em 0;
-    text-align: left;
-    line-height: 1.1em;
-    /* min-height: 2.2em; */
-    color: #fff;
-    padding: 0 5px;
-}
-
-#hd .section-security .list .entry p {
-    font-size: 1.1em;
-    line-height: 1.5;
-    margin: 0.8em 0 0 0;
-    text-align: center;
-    line-height: 1.3em;
-    padding: 0 5px;
-    color: #fff;
-    text-align: left;
-}
 
 #hd .section-security .note {
     max-width: 1100px;
@@ -7024,10 +6971,6 @@ screen and (max-width: 1023px) {
     /* background: #e6ebf0; */
 }
 
-#hd .section-scalable h2 {
-    margin-bottom: 0.5em;
-}
-
 #hd .section-scalable .inner {
     max-width: 1500px;
     padding: 0 30px;
@@ -7056,7 +6999,7 @@ screen and (max-width: 1023px) {
 }
 
 #hd .section-scalable .info_scalable .info_scalable_txt p.p1 {
-    font-size: 1.2em;
+    font-size: 1.25em;
     font-weight: 500;
     width: 80%;
     display: inline-block;
@@ -7078,7 +7021,7 @@ screen and (max-width: 1023px) {
 }
 
 #hd .section-scalable .info_scalable .info_scalable_txt p.p2 {
-    font-size: 1.2em;
+    font-size: 1.25em;
     font-weight: 500;
     width: 80%;
     display: inline-block;
@@ -7159,10 +7102,6 @@ screen and (max-width: 1023px) {
     padding: 2vw 0 0;
 }
 
-#hd .section-experience h2 {
-    margin-bottom: 0.5em;
-}
-
 #hd .section-experience .inner {
     max-width: 1500px;
     padding: 0 30px;
@@ -7210,11 +7149,7 @@ screen and (max-width: 1023px) {
 }
 
 #hd .section-experience .list .entry h3 {
-    font-size: 2em;
-    font-family: "TTNormsProMedium", "TTNorms", "MyriadPro", "Roboto", "Arial", "Apple LiGothic Medium", "STHeiti Light", "Microsoft JhengHei", sans-serif;
-    margin: 0 0 0.5em 0;
     text-align: center;
-    line-height: 1.1em;
     padding: 0 5px;
     background-color: #1fb3ff;
     background-image: -moz-linear-gradient(90deg, #1fb3ff 0%, #00f9ff);
@@ -7223,19 +7158,9 @@ screen and (max-width: 1023px) {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-    margin: 0;
 }
 
-#hd .section-experience .list .entry p {
-    font-size: 1.1em;
-    line-height: 1.5;
-    margin: 0.8em 0 0 0;
-    text-align: center;
-    line-height: 1.3em;
-    padding: 0 5px;
-    color: #fff;
-    text-align: left;
-}
+
 
 #hd .section-experience .note {
     max-width: 1100px;
@@ -7417,14 +7342,6 @@ screen and (max-width: 1023px) {
 
 #hd .section-models .hd-img-container img {
     padding: 0 20px;
-}
-
-#hd .section-models h2 {
-    margin-bottom: 0.5em;
-}
-
-#hd .section-models h3 {
-    font-size: 1.6em;
 }
 
 #hd .section-models .hd-container {
@@ -8237,7 +8154,7 @@ screen and (max-width: 1023px) {
 }
 
 #hd .sec-ksp p.p1 {
-    font-family: "TTNormsPro", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-family: "TTNormsProRegular", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
     color: #fff;
     line-height: 1.1em;
     margin: 0;
@@ -8256,7 +8173,7 @@ screen and (max-width: 1023px) {
 }
 
 #hd .sec-ksp p.p3 {
-    font-family: "TTNormsPro", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-family: "TTNormsProRegular", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
     color: #fff;
     line-height: 1.1em;
     margin: 0;

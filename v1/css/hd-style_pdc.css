@@ -6495,11 +6495,16 @@ screen and (max-width: 1023px) {
     -webkit-text-fill-color: transparent;
     display: inline-block;
     margin: 0;
-    font-size: 3em;
+        font-size: 2.8em;
+    letter-spacing: -0.02em;
 }
 
-@media screen and (max-width: 1200px) {
-    
+@media screen and (max-width: 1280px) {
+    #hd .section-desktop .intro .ksp_box{
+        flex-direction: column;
+    }
+    #hd .section-desktop .intro .ksp_box li{
+        width: 100%;
 }
 
 @media screen and (max-width: 950px) {

@@ -1,4 +1,15 @@
-  <style>
+<!-- 在原本製作的網頁上加上以下這一段-->
+ <meta name="robots" content="noindex, nofollow">
+ <script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const auth = urlParams.get("auth");
+  if (auth !== "1") {
+    // 沒有合法登入，就跳回登入頁
+    window.location.href = "index.html";
+  }
+</script>
+<!-- 在原本製作的網頁上加上以上這一段-->
+<style>
     body{
       padding: 0;
       margin: 0;

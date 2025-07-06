@@ -20,16 +20,14 @@
   <button onclick="login()">登入</button>
 
   <script>
-    // base64 混淆帳密
-    const validUser = atob("YWs=");       // "ak"
-    const validPass = atob("MTIzNDU2");   // "123456"
+    const validUser = atob("YWs=");       
+    const validPass = atob("MTIzNDU2");   
 
     function login() {
       const u = document.getElementById("user").value.trim();
       const p = document.getElementById("pass").value.trim();
 
       if (u === validUser && p === validPass) {
-        // ✅ 登入成功跳轉 main.html（可加 token）
         window.location.href = "main.html?auth=1";
       } else {
         alert("帳號或密碼錯誤！");

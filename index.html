@@ -602,6 +602,10 @@
       }
     }
   </script> -->
+    <script>
+      // 這段會繼續有效
+      console.log("我是 main 區塊裡的 script");
+    </script>
 </div>
 
   <script>
@@ -609,7 +613,12 @@
       const u = document.getElementById("user").value;
       const p = document.getElementById("pass").value;
       if (u === "ak" && p === "123456") {
-        document.body.innerHTML = document.getElementById("main-content").outerHTML;
+        // ✅ 顯示主內容
+        document.getElementById("main-content").style.display = "block";
+
+        // ✅ 移除登入區塊
+        const inputs = document.querySelectorAll("input, button, h2");
+        inputs.forEach(el => el.remove());
       } else {
         alert("帳號或密碼錯誤！");
       }

@@ -1,595 +1,633 @@
-<!-- 在原本製作的網頁上加上以下這一段-->
- <meta name="robots" content="noindex, nofollow">
-<!-- 在原本製作的網頁上加上以上這一段-->
-  <style>
-    body{
-      padding: 0;
-      margin: 0;
-    }
-  </style>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- FONT -->
-  <link rel="preconnect" href="https://cdn.fonts.net">
-  <link href="https://cdn.fonts.net/kit/9d6c4993-7af8-42eb-aef7-5ba3591e71b6/9d6c4993-7af8-42eb-aef7-5ba3591e71b6.css" rel="stylesheet" />
-  <!-- END FONT -->
-  <!-- <link rel="stylesheet" type="text/css" href="https://dlcdnimgs.asus.com/css/webapi/odinpatch/pdc-odin-v1.css"> -->
-  <link rel="stylesheet" href="v1/banner/css/hd-style.css">
-  <link rel="stylesheet" href="v1/css/colorbox.css">
-  <link rel="stylesheet" href="v1/css/font.css">
-  <!-- For PDC content -->
-  <link rel="stylesheet" href="v1/css/hd-style_pdc.css">
-  <script src="v1/lib/jquery-3.7.0.min.js"></script>
-  
-  <div id="hd" class="clear-style">
-    <div id="pageContent-lightbox" class="hd-lightbox" tabindex="0">
-      <div class="hd-filter"></div>
-      <div class="hd-box">
-        <div class="vid-container">
-          <iframe frameborder="0"></iframe>
-        </div>
-        <button type="button" class="hd-close trigger-close" aria-label="Close Lightbox" aria-controls="pageContent-lightbox"></button>
-      </div>
-    </div>
-    <nav id="overview-nav" class="overview_nav">
-        <ul>
-            <li class="on"><a aria-label="Jump to ASUS Ascent GX10 section" href="#pageContent-sec-overview"><b>ASUS Ascent GX10</b></a>
-                <div></div>
-            </li>
-            <li class="on"><a aria-label="Jump to Revolutionary AI Performance on Your Desktop section" href="#pageContent-sec-design"><b>Revolutionary AI Performance on Your Desktop</b></a>
-                <div></div>
-            </li>
-            <li class="on"><a aria-label="Jump to Handles Large Parameter Gen AI Models section" href="#pageContent-sec-ai"><b>Handles Large Parameter Gen AI Models</b></a>
-                <div></div>
-            </li>
-            <li class="on"><a aria-label="Jump to Meets Next-Gen Connectivity: NVIDIA<sup>®</sup> ConnectX-7 section" href="#pageContent-sec-security"><b>Meets Next-Gen Connectivity: NVIDIA<sup>®</sup> ConnectX-7</b></a>
-                <div></div>
-            </li>
-            <li class="on"><a aria-label="Jump to Integrated AI Software Stack for Seamless Development section" href="#pageContent-sec-experience"><b>Integrated AI Software Stack for Seamless Development</b></a>
-                <div></div>
-            </li>
-            <li class="on"><a aria-label="Jump to Engineered for Maximum Efficiency section" href="#pageContent-sec-scalable"><b>Engineered for Maximum Efficiency</b></a>
-                <div></div>
-            </li>
-            <li class="on"><a aria-label="Jump to I/O Ports section" href="#pageContent-sec-port"><b>I/O Ports</b></a>
-                <div></div>
-            </li>
-            <li class="on"><a aria-label="Jump to Local Development, Scalable Deployment section" href="#pageContent-sec-application"><b>Local Development, Scalable Deployment</b></a>
-                <div></div>
-            </li>
-            <li class="on"><a aria-label="Jump to Get Started section" href="#pageContent-sec-started"><b>Get Started</b></a>
-                <div></div>
-            </li>
-        </ul>
-    </nav>
-    <!-- <section id="BTN-Datasheet" class="product-content">
-      <div class="maintitle">
-        <a href="#" data-theme="White" target="_blank" rel="noreferrer noopener" download="RUC-1000G Datasheet.pdf" aria-label="Download ASUS NUC 15 Performance Datasheet" class="Button_Datasheet"><span class="Button_Datasheet_Text">
-                ASUS NUC 15 Performance Datasheet
-            </span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" svg-inline role="presentation" focusable="false" tabindex="-1" class="Button_Datasheet_arrowDownloadSVG">
-                <path stroke="#181818" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.2" d="M16.5 9L12 13.5 7.5 9"></path>
-                <path stroke="#181818" stroke-linecap="round" stroke-width="1.2" d="M12 12.75V3"></path>
-                <path stroke="#181818" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M3.75 12.75v6h16.5v-6"></path>
-            </svg></a>
-      </div>
-    </section> -->
-    <section id="pageContent-sec-overview" class="sec-kv bg-primary" aria-labelledby="pageContent-title-kv">
-        <div class="hd-bg">
-        <!-- <img class="award-logo" src="v1/img/PCMagLogo-Routers-11yrs-2022.png" alt="PCMag Logo"> -->
-        <img src="v1/img/kv.jpg" width="2560" height="975" alt="Desk with ASUS Ascent GX10 and data display on monitor">
-        <!-- <h2 class="color-dark h3 hd-tag">USB-C M.2 NVMe & SATA SSD Enclosure <br><strong>ASUS Cobble</strong></h2> -->
-      </div>
-      <div class="hd-title hd-w1100 align-center">
-        <!-- <p class="h4 color-gradient-light">Ultra- Samll AI Supercomputer</p> -->
-        <h2 id="pageContent-title-kv" class="tagline color-white"><span class="color-gradient-light sec_title">Ultra- Samll AI Supercomputer</span><strong>ASUS Ascent GX10</strong></h2>
-        <h3 class="reveal-bottom-delay1 color-white">Based on NVIDIA DGX™ Spark</h3>
-        <p class="reveal-bottom-delay1 color-white">The ASUS Ascent GX10 revolutionizes AI development with the NVIDIA<sup>®</sup> GB10 Grace Blackwell Superchip and Blackwell GPU, delivering accelerated computing and optimized workflows. Its compact design facilitates seamless integration and deployment, enabling powerful AI performance for innovators who demand excellence. With advanced AI tools and NVIDIA<sup>®</sup> ConnectX<sup>®</sup>-7, this small-scale server enhances your AI capabilities while empowering your unique solutions.</p>
-      </div>
-      
-      
-      
-    </section>
-    <section class="section-features">
-        <div class="hd-title hd-w1100 align-center get_started">
-            <p class="color-white">Get Started</p>
-            <a class="btn_Notify color-white" href="https://www.connect.asus.com/notify-me-202503" aria-label="“Notify Me” button" target="_blank">
-                <span>Notify Me</span></a>
-        </div>
-        <div class="inner" style="display:none;"><!-- style="display:none;"-->
-            <div class="grid">
-                <div class="row">
-                    <div class="column of2 box-1">
-                        <div class="text">
-                            <!-- <p class="p2">Up to</p> -->
-                            <p class="p1">NVIDIA<sup>®</sup> GB10 Grace Blackwell Superchip</p>
-                        </div>
-                        <div class="image">
-                            <img src="V1/img/grid-intel.png" alt="Intel CPU-Ultra 9">
-                        </div>
-                    </div>
-                    <div class="column of2 box-2">
-                        <div class="text">
-                            <!-- <p class="p2">Up to</p> -->
-                            <!-- <p class="p3">NVIDIA<sup>®</sup> GeForce</p> -->
-                            <p class="p1">NVIDIA<sup>®</sup><br>
-                                Blackwell GPU<br>128 GB Unified memory</p>
-                        </div>
-                        <!-- <div class="image">
-                        <img src="V1/img/grid-NVIDIA.png" alt="Nvidia GPU Geforce RTX 5070" />
-                        </div> -->
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- <div class="column of2 box-3">
-                    <div class="text">
-                    <p class="p1">Silent Cooling</p>
-                    <p class="p2">Featuring three fans and dual Vapor Chamber</p>
-                    </div>
-                    <div class="image">
-                    <img src="V1/img/grid-SilentCooling.png" alt="Two cooling fans interior of ROG NUC 2025">
-                    </div>
-                    </div> -->
-                    <div class="column of4 box-10">
-                        <div class="text">
-                            <p class="p1">QuietFlow Cooling</p>
-                            <p class="p2">Three fans &amp; dual Vapor Chamber</p>
-                        </div>
-                        <div class="image">
-                            <img src="V1/img/grid-bios.png" alt="QuietFlow Cooling">
-                        </div>
-                    </div>
-                    <div class="column of4 box-11">
-                        <div class="text">
-                            <p class="p2">Support up to</p>
-                            <p class="p1">Five 4K</p>
-                            <p class="p2">Displays</p>
-                        </div>
-                        <div class="image">
-                            <img src="V1/img/grid-quad.png" alt="Support up to Five 4K Displays">
-                        </div>
-                    </div>
-                    <div class="column of4 box-4a">
-                        <div class="text">
-                            <p class="p1">NVIDIA DLSS 4</p>
-                            <p class="p2">Supreme Speed. Superior Visuals. Powered by AI.</p>
-                        </div>
-                    </div>
-                    <div class="column of4 box-4">
-                        <div class="text">
-                            <p class="p1">DDR5- <br>6400 Mhz</p>
-                        </div>
-                        <div class="image">
-                            <img src="V1/img/grid-DDR5.png" alt="DDR5-6400Mhz">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column of4 box-10">
-                        <div class="text">
-                            <p class="p1">ROG BIOS &amp; Overclocking</p>
-                        </div>
-                        <div class="image">
-                            <img src="V1/img/grid-bios.png" alt="ROG BIOS & Overclocking">
-                        </div>
-                    </div>
-                    <div class="column of4 box-11">
-                        <div class="text">
-                            <p class="p2">Support up to</p>
-                            <p class="p1">Quad 4K</p>
-                            <p class="p2">Displays</p>
-                        </div>
-                        <div class="image">
-                            <img src="V1/img/grid-quad.png" alt="Quad 4K Displays">
-                        </div>
-                    </div>
-                    <div class="column of2 box-12">
-                        <div class="text">
-                            <p class="p1">Power Sync</p>
-                            <p class="p2">Control power status of ROG NUC 2025 and ASUS monitor</p>
-                        </div>
-                        <div class="image">
-                            <img src="V1/img/grid-PowerSync.png" alt="ASUS monitor next to an HDMI logo">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column of2 box-13">
-                        <div class="text">
-                            <p class="p1">Compact Size</p>
-                            <p class="p2">282.4mm x 187.7mm x 56.5mm (bottom: 146mm)</p>
-                        </div>
-                        <div class="image">
-                            <img src="V1/img/grid-Compact.png" alt="Compact Size">
-                        </div>
-                    </div>
-                    <div class="column of4 box-14">
-                        <div class="text">
-                            <p class="p1">Robust Design</p>
-                            <p class="p2">MIL-STD 810H Multiple Tests Passed</p>
-                        </div>
-                        <div class="image">
-                            <img src="V1/img/grid-Robust.png" alt="Robust Design-Military standard 810H">
-                        </div>
-                    </div>
-                    <div class="column of4 box-15">
-                        <div class="text">
-                            <p class="p2">Easy-to-upgrade</p>
-                            <p class="p1">Toolless</p>
-                            <p class="p2">chassis</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sec-ksp">
-          <ul class="ksp-container align-center">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FONT -->
+        <link rel="preconnect" href="https://cdn.fonts.net">
+        <link href="https://cdn.fonts.net/kit/9d6c4993-7af8-42eb-aef7-5ba3591e71b6/9d6c4993-7af8-42eb-aef7-5ba3591e71b6.css" rel="stylesheet" />
+        <!-- END FONT -->
+        <!-- <link rel="stylesheet" type="text/css" href="https://dlcdnimgs.asus.com/css/webapi/odinpatch/pdc-odin-v1.css"> -->
+        <link rel="stylesheet" href="v1/banner/css/hd-style.css">
+        <link rel="stylesheet" href="v1/css/colorbox.css">
+        <link rel="stylesheet" href="v1/css/font.css">
+        <!-- For PDC content -->
+        <link rel="stylesheet" href="v1/css/hd-style_pdc.css">
+        <script src="v1/lib/jquery-3.7.0.min.js"></script>
+        <!-- Google Tag Manager -->
+        <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NJRLM8');
+        </script>
+        <!-- End Google Tag Manager -->
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJRLM8"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+            }
+        </style>
 
-            <li class="reveal-bottom-delay1">
-                <div class="image">
-                    <img src="V1/img/logo_nvidia.png" alt="The NVIDIA logo">
+          <div id="hd" class="clear-style">
+            <div id="pageContent-lightbox" class="hd-lightbox" tabindex="0">
+              <div class="hd-filter"></div>
+              <div class="hd-box">
+                <div class="vid-container">
+                  <iframe frameborder="0"></iframe>
                 </div>
-                <div class="text">
-                    <p class="p1 text-left">NVIDIA<sup>®</sup> GB10 Grace Blackwell Superchip</p>
-                </div>
-            </li>
-            <li class="reveal-bottom-delay1">
-                <div class="text">
-                    <p class="p1 text-left">NVIDIA<sup>®</sup><br>
-                                Blackwell GPU<br>128 GB Unified memory</p>
-                </div>
-            </li>
-            <li class="reveal-bottom-delay1">
-              <div class="text">
-                    <p class="p3 text-center">1 petaFLOP</p>
-                    <p class="p2 text-center">AI Performance</p>
-                    <!-- <p class="p3 text-left">1 petaFLOP</p> -->
-                </div>
-            </li>
-            
-            <li class="reveal-bottom-delay1">
-              <div class="image">
-                    <img class="onepager_pd" src="V1/img/onepager_pd.png" alt="The ASUS Ascent GX10 product image">
-                </div>
-            </li>
-            
-            
-            <li class="reveal-bottom-delay1">
-              <div class="text">
-                    <p class="p1 text-left">NVIDIA<sup>®</sup><br>NVLink™-C2C</p>
-                    <p class="p2 text-left">Deliver a cohesive CPU+GPU memory model with five times the bandwidth of PCIe Gen 5</p>
-                </div>
-            </li>
-            <li class="reveal-bottom-delay1">
-              <div class="text">
-                    <p class="p1 text-left">NVIDIA<sup>®</sup> DGX Base OS with Ubuntu Linux</p>
-                </div>
-            </li>
-            
-            
-            <li class="reveal-bottom-delay1">
-              <div class="text">
-                    <p class="p1 text-left">NVIDIA<sup>®</sup> ConnectX<sup>®</sup>-7</p>
-                    <p class="p2 text-left">Allows two GX10 systems to be linked for handling even larger models</p>
-                </div>
-            </li>
-            <li class="reveal-bottom-delay1">
-              <div class="text">
-                    <p class="p1 text-center">Optimized Cooling Design</p>
-                </div>
-            </li>
-            <li class="reveal-bottom-delay1">
-              <div class="text">
-                    <p class="p1 text-center">NVIDIA<sup>®</sup> AI Enterprise Software Suite</p>
-                </div>
-            </li>
-            <li class="reveal-bottom-delay1">
-              <div class="text">
-                    <p class="p1 text-left">Al Development Environment</p>
-                    <p class="p2 text-left">Includes NVIDIA NIM™ and Blueprints. Supports Pytorch, Jupyter, Ollama for prototyping and inference.</p>
-                </div>
-            </li>
-            
-          </ul>
-        </div>
-    </section>
-    <section id="pageContent-sec-design" aria-labelledby="pageContent-title-design" class="section-desktop">
-        <div class="text-content">
-            <p class="h3 color-white mini-title">Design</p>
-            <h2 id="pageContent-title-design" class="color-gradient-light">Revolutionary AI Performance on Your Desktop</h2>
-            <p class="reveal-bottom-delay1 color-white">
-                The groundbreaking ASUS Ascent GX10 AI Supercomputer, powered by the state-of-the-art NVIDIA<sup>®</sup> GB10 Grace Blackwell Superchip found in the NVIDIA DGX Spark, brings petaflop-scale AI computing capabilities directly to the desks of developers, AI researchers, and data scientists. This innovative device is designed to empower local AI development with its exceptional performance and advanced features.
-            </p>
-        </div>
-        <div class="intro">
-            <div class="image reveal-bottom-delay1">
-                <h3 class="mtext-center">Compact, Powerful, and Scalable</h3>
-                <img src="v1/img/pic_scalable.jpg" alt="Man in suit holds a levitating, sleek ASUS mini PC in a futuristic setting." />
+                <button type="button" class="hd-close trigger-close" aria-label="Close Lightbox" aria-controls="pageContent-lightbox"></button>
+              </div>
             </div>
-            <div class="text reveal-bottom-delay2">
-                <h3 class="text-left">Unparalleled AI Performance</h3>
-                <p class="default-p"><b>Up to 1 petaFLOP of AI performance using FP4</b><br>
-                Selivers up to 1 petaFLOP of AI performance to power large AI workloads.<br><br><b>128GB of Coherent Unified System Memory</b><br>
-                Empowers model development, experimentation, and inferencing with ample memory capacity.</p>
-                <ul class="ksp_box">
-                    <li>
-                        <p>Up to</p>
-                        <p><strong>1 petaFLOP</strong></p>
-                        <p>of AI Performance<br>Using FP4</p>
+            <nav id="overview-nav" class="overview_nav">
+                <ul>
+                    <li class="on"><a aria-label="Jump to ASUS Ascent GX10 section" href="#pageContent-sec-overview"><b>ASUS Ascent GX10</b></a>
+                        <div></div>
                     </li>
-                    <li>
-                        <p>&nbsp;</p>
-                        <p><strong>128G</strong></p>
-                        <p>Coherent Unified<br>System Memory</p>
+                    <li class="on"><a aria-label="Jump to Revolutionary AI Performance on Your Desktop section" href="#pageContent-sec-design"><b>Revolutionary AI Performance on Your Desktop</b></a>
+                        <div></div>
+                    </li>
+                    <li class="on"><a aria-label="Jump to Handles Large Parameter Gen AI Models section" href="#pageContent-sec-ai"><b>Handles Large Parameter Gen AI Models</b></a>
+                        <div></div>
+                    </li>
+                    <li class="on"><a aria-label="Jump to Meets Next-Gen Connectivity: NVIDIA<sup>®</sup> ConnectX-7 section" href="#pageContent-sec-security"><b>Meets Next-Gen Connectivity: NVIDIA<sup>®</sup> ConnectX-7</b></a>
+                        <div></div>
+                    </li>
+                    <li class="on"><a aria-label="Jump to Integrated AI Software Stack for Seamless Development section" href="#pageContent-sec-experience"><b>Integrated AI Software Stack for Seamless Development</b></a>
+                        <div></div>
+                    </li>
+                    <li class="on"><a aria-label="Jump to Engineered for Maximum Efficiency section" href="#pageContent-sec-scalable"><b>Engineered for Maximum Efficiency</b></a>
+                        <div></div>
+                    </li>
+                    <li class="on"><a aria-label="Jump to I/O Ports section" href="#pageContent-sec-port"><b>I/O Ports</b></a>
+                        <div></div>
+                    </li>
+                    <li class="on"><a aria-label="Jump to Local Development, Scalable Deployment section" href="#pageContent-sec-application"><b>Local Development, Scalable Deployment</b></a>
+                        <div></div>
+                    </li>
+                    <li class="on"><a aria-label="Jump to Get Started section" href="#pageContent-sec-started"><b>Get Started</b></a>
+                        <div></div>
                     </li>
                 </ul>
-            </div>
-        </div>
-        <div class="intro align-items-center">
-            <div class="text reveal-bottom-delay2">
-                <h3 class=" text-left">Cutting-Edge Architecture</h3>
-                <p class="default-p"><b class="color-white">NVIDIA GB10 Grace Blackwell Superchip:</b><br>
-                Central to the ASUS Ascent GX10, this advanced chip features a robust Blackwell GPU with fifth-generation Tensor Cores and FP4 support.<br><br><b class="color-white">High-Performance 20-Core Arm CPU:</b><br>
-                Enhances data preprocessing and orchestration, accelerating model tuning and real-time inferencing.<br><br><b class="color-white">NVLink™-C2C Technology: </b><br>
-                Provides a cohesive CPU+GPU memory model with five times the bandwidth of PCIe 5.0.</p>
-                <!-- <ul class="ksp_box">
-                    <li>
-                        <p>Up to</p>
-                        <p><strong>1,000</strong></p>
-                        <p>AI TOPS<br>Processing Power</p>
+            </nav>
+            <!-- <section id="BTN-Datasheet" class="product-content">
+              <div class="maintitle">
+                <a href="#" data-theme="White" target="_blank" rel="noreferrer noopener" download="RUC-1000G Datasheet.pdf" aria-label="Download ASUS NUC 15 Performance Datasheet" class="Button_Datasheet"><span class="Button_Datasheet_Text">
+                        ASUS NUC 15 Performance Datasheet
+                    </span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" svg-inline role="presentation" focusable="false" tabindex="-1" class="Button_Datasheet_arrowDownloadSVG">
+                        <path stroke="#181818" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.2" d="M16.5 9L12 13.5 7.5 9"></path>
+                        <path stroke="#181818" stroke-linecap="round" stroke-width="1.2" d="M12 12.75V3"></path>
+                        <path stroke="#181818" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M3.75 12.75v6h16.5v-6"></path>
+                    </svg></a>
+              </div>
+            </section> -->
+            <section id="pageContent-sec-overview" class="sec-kv bg-primary" aria-labelledby="pageContent-title-kv">
+                <div class="hd-bg">
+                <!-- <img class="award-logo" src="v1/img/PCMagLogo-Routers-11yrs-2022.png" alt="PCMag Logo"> -->
+                <img src="v1/img/kv.jpg" width="2560" height="975" alt="Desk with ASUS Ascent GX10 and data display on monitor">
+                <!-- <h2 class="color-dark h3 hd-tag">USB-C M.2 NVMe & SATA SSD Enclosure <br><strong>ASUS Cobble</strong></h2> -->
+              </div>
+              <div class="hd-title hd-w1100 align-center">
+                <!-- <p class="h4 color-gradient-light">Ultra- Samll AI Supercomputer</p> -->
+                <h2 id="pageContent-title-kv" class="tagline color-white"><span class="color-gradient-light sec_title">Ultra- Samll AI Supercomputer</span><strong>ASUS Ascent GX10</strong></h2>
+                <h3 class="reveal-bottom-delay1 color-white">Based on NVIDIA DGX™ Spark</h3>
+                <p class="reveal-bottom-delay1 color-white">The ASUS Ascent GX10 revolutionizes AI development with the NVIDIA<sup>®</sup> GB10 Grace Blackwell Superchip and Blackwell GPU, delivering accelerated computing and optimized workflows. Its compact design facilitates seamless integration and deployment, enabling powerful AI performance for innovators who demand excellence. With advanced AI tools and NVIDIA<sup>®</sup> ConnectX<sup>®</sup>-7, this small-scale server enhances your AI capabilities while empowering your unique solutions.</p>
+              </div>
+              
+              
+              
+            </section>
+            <section class="section-features">
+                <!-- <div class="hd-title hd-w1100 align-center get_started">
+                    <p class="color-white">Get Started</p>
+                    <a class="btn_Notify color-white" href="https://www.connect.asus.com/notify-me-202503" aria-label="“Notify Me” button" target="_blank">
+                        <span>Notify Me</span></a>
+                </div> -->
+                <div class="inner" style="display:none;"><!-- style="display:none;"-->
+                    <div class="grid">
+                        <div class="row">
+                            <div class="column of2 box-1">
+                                <div class="text">
+                                    <!-- <p class="p2">Up to</p> -->
+                                    <p class="p1">NVIDIA<sup>®</sup> GB10 Grace Blackwell Superchip</p>
+                                </div>
+                                <div class="image">
+                                    <img src="V1/img/grid-intel.png" alt="Intel CPU-Ultra 9">
+                                </div>
+                            </div>
+                            <div class="column of2 box-2">
+                                <div class="text">
+                                    <!-- <p class="p2">Up to</p> -->
+                                    <!-- <p class="p3">NVIDIA<sup>®</sup> GeForce</p> -->
+                                    <p class="p1">NVIDIA<sup>®</sup><br>
+                                        Blackwell GPU<br>128 GB Unified memory</p>
+                                </div>
+                                <!-- <div class="image">
+                                <img src="V1/img/grid-NVIDIA.png" alt="Nvidia GPU Geforce RTX 5070" />
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- <div class="column of2 box-3">
+                            <div class="text">
+                            <p class="p1">Silent Cooling</p>
+                            <p class="p2">Featuring three fans and dual Vapor Chamber</p>
+                            </div>
+                            <div class="image">
+                            <img src="V1/img/grid-SilentCooling.png" alt="Two cooling fans interior of ROG NUC 2025">
+                            </div>
+                            </div> -->
+                            <div class="column of4 box-10">
+                                <div class="text">
+                                    <p class="p1">QuietFlow Cooling</p>
+                                    <p class="p2">Three fans &amp; dual Vapor Chamber</p>
+                                </div>
+                                <div class="image">
+                                    <img src="V1/img/grid-bios.png" alt="QuietFlow Cooling">
+                                </div>
+                            </div>
+                            <div class="column of4 box-11">
+                                <div class="text">
+                                    <p class="p2">Support up to</p>
+                                    <p class="p1">Five 4K</p>
+                                    <p class="p2">Displays</p>
+                                </div>
+                                <div class="image">
+                                    <img src="V1/img/grid-quad.png" alt="Support up to Five 4K Displays">
+                                </div>
+                            </div>
+                            <div class="column of4 box-4a">
+                                <div class="text">
+                                    <p class="p1">NVIDIA DLSS 4</p>
+                                    <p class="p2">Supreme Speed. Superior Visuals. Powered by AI.</p>
+                                </div>
+                            </div>
+                            <div class="column of4 box-4">
+                                <div class="text">
+                                    <p class="p1">DDR5- <br>6400 Mhz</p>
+                                </div>
+                                <div class="image">
+                                    <img src="V1/img/grid-DDR5.png" alt="DDR5-6400Mhz">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column of4 box-10">
+                                <div class="text">
+                                    <p class="p1">ROG BIOS &amp; Overclocking</p>
+                                </div>
+                                <div class="image">
+                                    <img src="V1/img/grid-bios.png" alt="ROG BIOS & Overclocking">
+                                </div>
+                            </div>
+                            <div class="column of4 box-11">
+                                <div class="text">
+                                    <p class="p2">Support up to</p>
+                                    <p class="p1">Quad 4K</p>
+                                    <p class="p2">Displays</p>
+                                </div>
+                                <div class="image">
+                                    <img src="V1/img/grid-quad.png" alt="Quad 4K Displays">
+                                </div>
+                            </div>
+                            <div class="column of2 box-12">
+                                <div class="text">
+                                    <p class="p1">Power Sync</p>
+                                    <p class="p2">Control power status of ROG NUC 2025 and ASUS monitor</p>
+                                </div>
+                                <div class="image">
+                                    <img src="V1/img/grid-PowerSync.png" alt="ASUS monitor next to an HDMI logo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column of2 box-13">
+                                <div class="text">
+                                    <p class="p1">Compact Size</p>
+                                    <p class="p2">282.4mm x 187.7mm x 56.5mm (bottom: 146mm)</p>
+                                </div>
+                                <div class="image">
+                                    <img src="V1/img/grid-Compact.png" alt="Compact Size">
+                                </div>
+                            </div>
+                            <div class="column of4 box-14">
+                                <div class="text">
+                                    <p class="p1">Robust Design</p>
+                                    <p class="p2">MIL-STD 810H Multiple Tests Passed</p>
+                                </div>
+                                <div class="image">
+                                    <img src="V1/img/grid-Robust.png" alt="Robust Design-Military standard 810H">
+                                </div>
+                            </div>
+                            <div class="column of4 box-15">
+                                <div class="text">
+                                    <p class="p2">Easy-to-upgrade</p>
+                                    <p class="p1">Toolless</p>
+                                    <p class="p2">chassis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-ksp">
+                  <ul class="ksp-container align-center">
+
+                    <li class="reveal-bottom-delay1">
+                        <div class="image">
+                            <img src="V1/img/logo_nvidia.png" alt="The NVIDIA logo">
+                        </div>
+                        <div class="text">
+                            <p class="p1 text-left">NVIDIA<sup>®</sup> GB10 Grace Blackwell Superchip</p>
+                        </div>
                     </li>
-                    <li>
-                        <p>&nbsp;</p>
-                        <p><strong>128G</strong></p>
-                        <p>Coherent Unified<br>System Memory</p>
+                    <li class="reveal-bottom-delay1">
+                        <div class="text">
+                            <p class="p1 text-left">NVIDIA<sup>®</sup><br>
+                                        Blackwell GPU<br>128 GB Unified memory</p>
+                        </div>
                     </li>
-                </ul> -->
-            </div>
-            <div class="image reveal-bottom-delay1">
-                <img src="v1/img/pic_ai.jpg" alt="Close-up of an AI chip with glowing orange pathways on a circuit board." />
-            </div>
-        </div>
-    </section>
-    <section id="pageContent-sec-ai" aria-labelledby="pageContent-title-models" class="section-models">
-        <div class="hd-container hd-w1300 flex-nowrap">
-            <div class="hd-img-container hd-col50 reveal-bottom-delay2">
-              <img src="v1/img/pic_models.jpg" alt="Person typing on a laptop, surrounded by monitors displaying colorful code." />
-            </div>
-            <div class="hd-content hd-col50 reveal-bottom-delay1">
-                <h2 id="pageContent-title-models" class="h2 color-gradient-light">Handles Large Parameter Gen AI Models</h2>
-                <h3 class="color-white">Support for AI Models 200 Billion Parameters</h3>
-                <p class="default-p color-white">Prototype, fine-tune, and infer the latest AI reasoning models directly on your desktop.​</p><br>
-                <h3 class="color-white">Integrated NVIDIA<sup>®</sup> ConnectX<sup>®</sup>-7 Network Technology</h3>
-                <p class="default-p color-white">Link two ASUS Ascent GX10 systems to handle even larger models, such as Llama 3.1 with 405 billion parameters.</p>
-            </div>
-        </div>
-    </section>
-    <div class="bg_style">
-        <section id="pageContent-sec-security" class="section-security">
-            <div class="inner">
+                    <li class="reveal-bottom-delay1">
+                      <div class="text">
+                            <p class="p3 text-center">1 petaFLOP</p>
+                            <p class="p2 text-center">AI Performance</p>
+                            <!-- <p class="p3 text-left">1 petaFLOP</p> -->
+                        </div>
+                    </li>
+                    
+                    <li class="reveal-bottom-delay1">
+                      <div class="image">
+                            <img class="onepager_pd" src="V1/img/onepager_pd.png" alt="The ASUS Ascent GX10 product image">
+                        </div>
+                    </li>
+                    
+                    
+                    <li class="reveal-bottom-delay1">
+                      <div class="text">
+                            <p class="p1 text-left">NVIDIA<sup>®</sup><br>NVLink™-C2C</p>
+                            <p class="p2 text-left">Deliver a cohesive CPU+GPU memory model with five times the bandwidth of PCIe Gen 5</p>
+                        </div>
+                    </li>
+                    <li class="reveal-bottom-delay1">
+                      <div class="text">
+                            <p class="p1 text-left">NVIDIA<sup>®</sup> DGX Base OS with Ubuntu Linux</p>
+                        </div>
+                    </li>
+                    
+                    
+                    <li class="reveal-bottom-delay1">
+                      <div class="text">
+                            <p class="p1 text-left">NVIDIA<sup>®</sup> ConnectX<sup>®</sup>-7</p>
+                            <p class="p2 text-left">Allows two GX10 systems to be linked for handling even larger models</p>
+                        </div>
+                    </li>
+                    <li class="reveal-bottom-delay1">
+                      <div class="text">
+                            <p class="p1 text-center">Optimized Cooling Design</p>
+                        </div>
+                    </li>
+                    <li class="reveal-bottom-delay1">
+                      <div class="text">
+                            <p class="p1 text-center">NVIDIA<sup>®</sup> AI Enterprise Software Suite</p>
+                        </div>
+                    </li>
+                    <li class="reveal-bottom-delay1">
+                      <div class="text">
+                            <p class="p1 text-left">Al Development Environment</p>
+                            <p class="p2 text-left">Includes NVIDIA NIM™ and Blueprints. Supports Pytorch, Jupyter, Ollama for prototyping and inference.</p>
+                        </div>
+                    </li>
+                    
+                  </ul>
+                </div>
+            </section>
+            <section id="pageContent-sec-design" aria-labelledby="pageContent-title-design" class="section-desktop">
                 <div class="text-content">
-                    <p class="h3 color-white mini-title">AI Networking</p>
-                    <h2 class="h2 color-gradient-light">Meets Next-Gen Connectivity: NVIDIA<sup>®</sup> ConnectX-7</h2>
-                    <p class="reveal-bottom-delay1 color-white">The ASUS Ascent GX10 integrates NVIDIA<sup>®</sup> ConnectX-7 to deliver ultra-high-speed networking, enabling rapid data transfer and low-latency communication across distributed AI workloads.</p>
+                    <p class="h3 color-white mini-title">Design</p>
+                    <h2 id="pageContent-title-design" class="color-gradient-light">Revolutionary AI Performance on Your Desktop</h2>
+                    <p class="reveal-bottom-delay1 color-white">
+                        The groundbreaking ASUS Ascent GX10 AI Supercomputer, powered by the state-of-the-art NVIDIA<sup>®</sup> GB10 Grace Blackwell Superchip found in the NVIDIA DGX Spark, brings petaflop-scale AI computing capabilities directly to the desks of developers, AI researchers, and data scientists. This innovative device is designed to empower local AI development with its exceptional performance and advanced features.
+                    </p>
+                </div>
+                <div class="intro">
+                    <div class="image reveal-bottom-delay1">
+                        <h3 class="mtext-center">Compact, Powerful, and Scalable</h3>
+                        <img src="v1/img/pic_scalable.jpg" alt="Man in suit holds a levitating, sleek ASUS mini PC in a futuristic setting." />
+                    </div>
+                    <div class="text reveal-bottom-delay2">
+                        <h3 class="text-left">Unparalleled AI Performance</h3>
+                        <p class="default-p"><b>Up to 1 petaFLOP of AI performance using FP4</b><br>
+                        Selivers up to 1 petaFLOP of AI performance to power large AI workloads.<br><br><b>128GB of Coherent Unified System Memory</b><br>
+                        Empowers model development, experimentation, and inferencing with ample memory capacity.</p>
+                        <ul class="ksp_box">
+                            <li>
+                                <p>Up to</p>
+                                <p><strong>1 petaFLOP</strong></p>
+                                <p>of AI Performance<br>Using FP4</p>
+                            </li>
+                            <li>
+                                <p>&nbsp;</p>
+                                <p><strong>128G</strong></p>
+                                <p>Coherent Unified<br>System Memory</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="intro align-items-center">
+                    <div class="text reveal-bottom-delay2">
+                        <h3 class=" text-left">Cutting-Edge Architecture</h3>
+                        <p class="default-p"><b class="color-white">NVIDIA GB10 Grace Blackwell Superchip:</b><br>
+                        Central to the ASUS Ascent GX10, this advanced chip features a robust Blackwell GPU with fifth-generation Tensor Cores and FP4 support.<br><br><b class="color-white">High-Performance 20-Core Arm CPU:</b><br>
+                        Enhances data preprocessing and orchestration, accelerating model tuning and real-time inferencing.<br><br><b class="color-white">NVLink™-C2C Technology: </b><br>
+                        Provides a cohesive CPU+GPU memory model with five times the bandwidth of PCIe 5.0.</p>
+                        <!-- <ul class="ksp_box">
+                            <li>
+                                <p>Up to</p>
+                                <p><strong>1,000</strong></p>
+                                <p>AI TOPS<br>Processing Power</p>
+                            </li>
+                            <li>
+                                <p>&nbsp;</p>
+                                <p><strong>128G</strong></p>
+                                <p>Coherent Unified<br>System Memory</p>
+                            </li>
+                        </ul> -->
+                    </div>
+                    <div class="image reveal-bottom-delay1">
+                        <img src="v1/img/pic_ai.jpg" alt="Close-up of an AI chip with glowing orange pathways on a circuit board." />
+                    </div>
+                </div>
+            </section>
+            <section id="pageContent-sec-ai" aria-labelledby="pageContent-title-models" class="section-models">
+                <div class="hd-container hd-w1300 flex-nowrap">
+                    <div class="hd-img-container hd-col50 reveal-bottom-delay2">
+                      <img src="v1/img/pic_models.jpg" alt="Person typing on a laptop, surrounded by monitors displaying colorful code." />
+                    </div>
+                    <div class="hd-content hd-col50 reveal-bottom-delay1">
+                        <h2 id="pageContent-title-models" class="h2 color-gradient-light">Handles Large Parameter Gen AI Models</h2>
+                        <h3 class="color-white">Support for AI Models 200 Billion Parameters</h3>
+                        <p class="default-p color-white">Prototype, fine-tune, and infer the latest AI reasoning models directly on your desktop.​</p><br>
+                        <h3 class="color-white">Integrated NVIDIA<sup>®</sup> ConnectX<sup>®</sup>-7 Network Technology</h3>
+                        <p class="default-p color-white">Link two ASUS Ascent GX10 systems to handle even larger models, such as Llama 3.1 with 405 billion parameters.</p>
+                    </div>
+                </div>
+            </section>
+            <div class="bg_style">
+                <section id="pageContent-sec-security" class="section-security">
+                    <div class="inner">
+                        <div class="text-content">
+                            <p class="h3 color-white mini-title">AI Networking</p>
+                            <h2 class="h2 color-gradient-light">Meets Next-Gen Connectivity: NVIDIA<sup>®</sup> ConnectX-7</h2>
+                            <p class="reveal-bottom-delay1 color-white">The ASUS Ascent GX10 integrates NVIDIA<sup>®</sup> ConnectX-7 to deliver ultra-high-speed networking, enabling rapid data transfer and low-latency communication across distributed AI workloads.</p>
+                        </div>
+                        <div class="list">
+                            <div class="entry reveal-bottom-delay1">
+                                <div class="image">
+                                    <img src="v1/img/security-1.jpg" alt="Futuristic digital cityscape with blue lights and data streams, evoking innovation." />
+                                </div>
+                                <h3 class="color-white">Ultra-Fast AI Data Throughput</h3>
+                                <p>Up to 400Gb/s bandwidth enables lightning-fast data transfer between nodes—ideal for large-scale, distributed AI workloads.</p>
+                            </div>
+                            <div class="entry reveal-bottom-delay2">
+                                <div class="image">
+                                    <img src="v1/img/security-2.jpg" alt="Blue lock surrounded by glowing lines and smaller locks, symbolizing cybersecurity." />
+                                </div>
+                                <h3 class="color-white">Secure, Intelligent Networking</h3>
+                                <p>Built-in hardware acceleration for TLS, IPsec, and MACsec ensures encrypted data transmission without CPU overhead.</p>
+                            </div>
+                            <div class="entry reveal-bottom-delay3">
+                                <div class="image">
+                                    <img src="v1/img/security-3.jpg" alt="Robotic arms assemble electronics on a conveyor in a high-tech factory." />
+                                </div>
+                                <h3 class="color-white">Precision-Critical Performance</h3>
+                                <p>IEEE 1588v2 PTP support enables microsecond-level time synchronization for time-sensitive AI and edge computing applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="pageContent-sec-experience" class="section-experience">
+                    <div class="inner">
+                        <div class="text-content">
+                            <p class="h3 color-white mini-title">AI Experience</p>
+                            <h2 class="h2 color-gradient-light">Integrated AI Software Stack for Seamless Development</h2>
+                        </div>
+                        <div class="list">
+                            <div class="entry reveal-bottom-delay1">
+                                <div class="image">
+                                    <img src="v1/img/ico_experience_01.png" alt="Ready-to-use feature icon" />
+                                </div>
+                                <h3>Preloaded AI for Instant Development</h3>
+                                <p>NVIDIA DGX Base OS (Ubuntu-based) – Optimized AI environment, ready to use.<br><br>NVIDIA AI Software Stack – Preloaded frameworks, SDKs, and tools for fast deployment.</p>
+                            </div>
+                            <div class="entry reveal-bottom-delay2">
+                                <div class="image">
+                                    <img src="v1/img/ico_experience_02.png" alt="AI Tool feature icon" />
+                                </div>
+                                <h3>Optimized AI Tools & AI Frameworks</h3>
+                                <p>CUDA, PyTorch, TensorFlow, Jupyter – Optimized for AI model development & inference.<br><br>NVIDIA TensorRT – High-performance AI inference engine.<br><br>NVIDIA NIMs & Blueprints – Prebuilt AI workflows & microservices.</p>
+                            </div>
+                            <div class="entry reveal-bottom-delay3">
+                                <div class="image">
+                                    <img src="v1/img/ico_experience_03.png" alt="AI Mode feature icon" />
+                                </div>
+                                <h3>Industry-Leading AI Model Support</h3>
+                                <p>DeepSeek R1 – AI inference optimized up to 70B parameters.<br><br>Llama 3.1 – Generative AI up to 405B parameters (dual-GX10).<br><br>Meta, Google models – Broad compatibility with industry-leading AI frameworks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="pageContent-sec-scalable" class="section-scalable">
+                    <div class="inner">
+                        <div class="text-content">
+                            <p class="h3 color-white mini-title">Scalable</p>
+                            <h2 class="h2 color-gradient-light">Engineered for Maximum Efficiency</h2>
+                        </div>
+                        <div class="info_scalable reveal-bottom-delay1">
+                            <img src="v1/img/pic_scalable.png" alt="Two stacked ASUS GX10 devices on a dark surface, exuding modern tech." />
+                            <div class="info_scalable_txt">
+                                <p class="p1 reveal-bottom-delay2">Optimized cooling design ensure sustained AI performance under heavy workloads</p>
+                                <p class="p2 reveal-bottom-delay3">Compact from factor, delivering high-density AI computing in a small footprint</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section id="pageContent-sec-port" class="sec-port" >
+              <div class="inner hd-w1000">
+                <div class="text-content text-center">
+                    <p class="h3 color-white mini-title">Connectivity</p>
+                    <h2 class="h2 color-gradient-light">I/O Ports</h2>
+                </div>
+                <div class="spec-wrapper spec-system reveal-bottom-delay1">
+                    <div class="image">
+                        <img class="default" src="v1/img/line_pd.png" alt="Silver ASUS GX10 AI supercomputer with rear ports on dark blue background.">
+                        <img class="mobile" src="v1/img/line_pd-mobile.png" alt="Silver ASUS GX10 AI supercomputer with rear ports on dark blue background.">
+                    </div>
+                    <div class="list">
+                        <p class="p1 reveal-bottom-delay1"><span class="number">1</span><b>Kensington Lock Slot</b></p>
+                        <p class="p2 reveal-bottom-delay1"><span class="number">2</span><b>1 x USB 3.2 Gen 2x2 Type-C, 20Gbps,</b><br>alternate mode (DisplayPort 2.1), with PD in(180W EPR PD3.1 SPEC)</p>
+                        <p class="p3 reveal-bottom-delay2"><span class="number">3</span><b>3 x USB 3.2 Gen 2x2 Type-C, 20Gbps,</b><br>alternate mode (DisplayPort 2.1)</p>
+                        <p class="p4 reveal-bottom-delay2"><span class="number">4</span><b>HDMI 2.1b port</b></p>
+                        <p class="p5 reveal-bottom-delay3"><span class="number">5</span><b>10 GbE LAN</b></p>
+                        <p class="p6 reveal-bottom-delay3"><span class="number">6</span><b>1 x ConnectX CX-7 (2x 200G QSFP)</b></p>
+                    </div>
+                </div>
+              </div>
+            </section>
+            <section id="pageContent-sec-application" aria-labelledby="pageContent-title-application" class="section-application">
+                <div class="text-content">
+                    <p class="h3 color-white mini-title">Application</p>
+                    <h2 id="pageContent-title-application" class="color-gradient-light">Local Development, Scalable Deployment</h2>
+                </div>
+                <div class="intro align-items-center">
+                    <div class="image reveal-bottom-delay1">
+                        <img src="v1/img/pic_deployment.jpg" alt="Two people working at a computer in a futuristic setting." />
+                    </div>
+                    <div class="text reveal-bottom-delay2">
+                        <h3 class="color-white text-left">Seamless Transition to Cloud</h3>
+                        <p class="default-p">Leverage NVIDIA AI platform software architecture to move models from desktop environments to DGX Cloud or any accelerated cloud or data center infrastructure with minimal code adjustments.</p>
+                        <h3 class="color-white text-left">Cost-Effective Experimentation Platform</h3>
+                        <p class="default-p">Free up essential compute resources in clusters better suited for training and deploying production models.</p>
+                    </div>
                 </div>
                 <div class="list">
                     <div class="entry reveal-bottom-delay1">
+                        
                         <div class="image">
-                            <img src="v1/img/security-1.jpg" alt="Futuristic digital cityscape with blue lights and data streams, evoking innovation." />
+                            <img src="v1/img/application-1.jpg" alt="Engineers review a 3D holographic gear model, symbolizing innovation." />
                         </div>
-                        <h3 class="color-white">Ultra-Fast AI Data Throughput</h3>
-                        <p>Up to 400Gb/s bandwidth enables lightning-fast data transfer between nodes—ideal for large-scale, distributed AI workloads.</p>
+                        <h4>Prototyping</h4>
                     </div>
                     <div class="entry reveal-bottom-delay2">
+                        
                         <div class="image">
-                            <img src="v1/img/security-2.jpg" alt="Blue lock surrounded by glowing lines and smaller locks, symbolizing cybersecurity." />
+                            <img src="v1/img/application-2.jpg" alt="Modern control room with people at computers and blue-lit screens showing complex data." />
                         </div>
-                        <h3 class="color-white">Secure, Intelligent Networking</h3>
-                        <p>Built-in hardware acceleration for TLS, IPsec, and MACsec ensures encrypted data transmission without CPU overhead.</p>
+                        <h4>Fine Tuning / Inference</h4>
                     </div>
                     <div class="entry reveal-bottom-delay3">
+                        
                         <div class="image">
-                            <img src="v1/img/security-3.jpg" alt="Robotic arms assemble electronics on a conveyor in a high-tech factory." />
+                            <img src="v1/img/application-3.jpg" alt="Person coding on a laptop, flanked by two monitors displaying colorful code." />
                         </div>
-                        <h3 class="color-white">Precision-Critical Performance</h3>
-                        <p>IEEE 1588v2 PTP support enables microsecond-level time synchronization for time-sensitive AI and edge computing applications.</p>
+                        <h4>Data Science</h4>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section id="pageContent-sec-experience" class="section-experience">
-            <div class="inner">
+            </section>
+
+            <section id="pageContent-sec-started" aria-labelledby="pageContent-title-started" class="section-started">
                 <div class="text-content">
-                    <p class="h3 color-white mini-title">AI Experience</p>
-                    <h2 class="h2 color-gradient-light">Integrated AI Software Stack for Seamless Development</h2>
+                    <h2 id="pageContent-title-started" class="color-gradient-light">Get Started</h2>
+                    <h3 class="color-white">Sign up to be notified when ASUS Ascent GX10 becomes available.</h3>
+                    <!-- <p class="txt_Notify color-white">Notify Me</p> -->
+                    <a class="btn_Notify color-white" href="https://www.connect.asus.com/notify-me-202503" aria-label="“Notify Me” button" target="_blank" onclick="
+                                window.dataLayer = window.dataLayer || [];
+                                dataLayer.push({
+                                    'event' : 'data_layer_event',
+                                    'event_name_ga4':'ascent_gx10_notify_me',
+                                    'event_category_DL':'button',
+                                    'event_action_DL':'clicked',
+                                    'event_label_DL':'Notify_Me',
+                                    'event_value_DL':'0'
+                                });
+                                ">
+                        <span>Notify Me</span></a>
+                    <p class="reveal-bottom-delay1 color-white">Specifications and product images are subject to change.</p>
                 </div>
-                <div class="list">
-                    <div class="entry reveal-bottom-delay1">
-                        <div class="image">
-                            <img src="v1/img/ico_experience_01.png" alt="Ready-to-use feature icon" />
-                        </div>
-                        <h3>Preloaded AI for Instant Development</h3>
-                        <p>NVIDIA DGX Base OS (Ubuntu-based) – Optimized AI environment, ready to use.<br><br>NVIDIA AI Software Stack – Preloaded frameworks, SDKs, and tools for fast deployment.</p>
-                    </div>
-                    <div class="entry reveal-bottom-delay2">
-                        <div class="image">
-                            <img src="v1/img/ico_experience_02.png" alt="AI Tool feature icon" />
-                        </div>
-                        <h3>Optimized AI Tools & AI Frameworks</h3>
-                        <p>CUDA, PyTorch, TensorFlow, Jupyter – Optimized for AI model development & inference.<br><br>NVIDIA TensorRT – High-performance AI inference engine.<br><br>NVIDIA NIMs & Blueprints – Prebuilt AI workflows & microservices.</p>
-                    </div>
-                    <div class="entry reveal-bottom-delay3">
-                        <div class="image">
-                            <img src="v1/img/ico_experience_03.png" alt="AI Mode feature icon" />
-                        </div>
-                        <h3>Industry-Leading AI Model Support</h3>
-                        <p>DeepSeek R1 – AI inference optimized up to 70B parameters.<br><br>Llama 3.1 – Generative AI up to 405B parameters (dual-GX10).<br><br>Meta, Google models – Broad compatibility with industry-leading AI frameworks.</p>
-                    </div>
+            </section>
+            <!-- For PDC content -->
+            <!-- <section id="pdc">
+              <div class="product_gallery theme-white"></div>
+              <div class="product_awards theme-white"></div>
+              <div class="product_videos theme-white"></div>
+              <div class="product_medias theme-white"></div>
+            </section> -->
+            <!-- <section class="sec-video bg-black">
+              <div class="hd-container">
+                <div class="vid-container trigger-video-toggle">
+                  <video src="v1/video/product.mp4" poster="v1/video/product.jpg" muted playsinline autoplay loop id="pageContent-video-product" width="1920" height="1080" aria-label="RT-BE50 angled views">
+                    <track src="v1/video/product.vtt" kind="descriptions" srclang="en" label="English" default="">
+                  </video>
+                  <button type="button" class="vid-control" aria-controls="pageContent-video-product" aria-label="Pause ASUS RT-BE86U Product video" data-on="Pause ASUS RT-BE50 Product video" data-off="Play ASUS RT-BE50 Product video">
+                    <img src="v1/img/play.svg" alt="" class="play" loading="lazy">
+                    <img src="v1/img/pause.svg" alt="" class="pause" loading="lazy">
+                  </button>
                 </div>
-            </div>
-        </section>
-        <section id="pageContent-sec-scalable" class="section-scalable">
-            <div class="inner">
-                <div class="text-content">
-                    <p class="h3 color-white mini-title">Scalable</p>
-                    <h2 class="h2 color-gradient-light">Engineered for Maximum Efficiency</h2>
+                <div class="btn-container">
+                  <button type="button" class="trigger-video hd-btn" aria-label="Click to watch the product video" aria-controls="pageContent-lightbox" aria-expanded="false" data-type="iframe" data-src="https://www.youtube.com/embed/uP3qJB3n4-Y" onclick="
+                  dataLayer.push({
+                  'event': 'data_layer_event',
+                  'event_category_DL':'videos',
+                  'event_action_DL':'played',
+                  'event_label_DL':'Watch Now',
+                  });">Watch Now <span></span></button>
                 </div>
-                <div class="info_scalable reveal-bottom-delay1">
-                    <img src="v1/img/pic_scalable.png" alt="Two stacked ASUS GX10 devices on a dark surface, exuding modern tech." />
-                    <div class="info_scalable_txt">
-                        <p class="p1 reveal-bottom-delay2">Optimized cooling design ensure sustained AI performance under heavy workloads</p>
-                        <p class="p2 reveal-bottom-delay3">Compact from factor, delivering high-density AI computing in a small footprint</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <section id="pageContent-sec-port" class="sec-port" >
-      <div class="inner hd-w1000">
-        <div class="text-content text-center">
-            <p class="h3 color-white mini-title">Connectivity</p>
-            <h2 class="h2 color-gradient-light">I/O Ports</h2>
-        </div>
-        <div class="spec-wrapper spec-system reveal-bottom-delay1">
-            <div class="image">
-                <img class="default" src="v1/img/line_pd.png" alt="Silver ASUS GX10 AI supercomputer with rear ports on dark blue background.">
-                <img class="mobile" src="v1/img/line_pd-mobile.png" alt="Silver ASUS GX10 AI supercomputer with rear ports on dark blue background.">
-            </div>
-            <div class="list">
-                <p class="p1 reveal-bottom-delay1"><span class="number">1</span><b>Kensington Lock Slot</b></p>
-                <p class="p2 reveal-bottom-delay1"><span class="number">2</span><b>1 x USB 3.2 Gen 2x2 Type-C, 20Gbps,</b><br>alternate mode (DisplayPort 2.1), with PD in(180W EPR PD3.1 SPEC)</p>
-                <p class="p3 reveal-bottom-delay2"><span class="number">3</span><b>3 x USB 3.2 Gen 2x2 Type-C, 20Gbps,</b><br>alternate mode (DisplayPort 2.1)</p>
-                <p class="p4 reveal-bottom-delay2"><span class="number">4</span><b>HDMI 2.1b port</b></p>
-                <p class="p5 reveal-bottom-delay3"><span class="number">5</span><b>10 GbE LAN</b></p>
-                <p class="p6 reveal-bottom-delay3"><span class="number">6</span><b>1 x ConnectX CX-7 (2x 200G QSFP)</b></p>
-            </div>
-        </div>
-      </div>
-    </section>
-    <section id="pageContent-sec-application" aria-labelledby="pageContent-title-application" class="section-application">
-        <div class="text-content">
-            <p class="h3 color-white mini-title">Application</p>
-            <h2 id="pageContent-title-application" class="color-gradient-light">Local Development, Scalable Deployment</h2>
-        </div>
-        <div class="intro align-items-center">
-            <div class="image reveal-bottom-delay1">
-                <img src="v1/img/pic_deployment.jpg" alt="Two people working at a computer in a futuristic setting." />
-            </div>
-            <div class="text reveal-bottom-delay2">
-                <h3 class="color-white text-left">Seamless Transition to Cloud</h3>
-                <p class="default-p">Leverage NVIDIA AI platform software architecture to move models from desktop environments to DGX Cloud or any accelerated cloud or data center infrastructure with minimal code adjustments.</p>
-                <h3 class="color-white text-left">Cost-Effective Experimentation Platform</h3>
-                <p class="default-p">Free up essential compute resources in clusters better suited for training and deploying production models.</p>
-            </div>
-        </div>
-        <div class="list">
-            <div class="entry reveal-bottom-delay1">
-                
-                <div class="image">
-                    <img src="v1/img/application-1.jpg" alt="Engineers review a 3D holographic gear model, symbolizing innovation." />
-                </div>
-                <h4>Prototyping</h4>
-            </div>
-            <div class="entry reveal-bottom-delay2">
-                
-                <div class="image">
-                    <img src="v1/img/application-2.jpg" alt="Modern control room with people at computers and blue-lit screens showing complex data." />
-                </div>
-                <h4>Fine Tuning / Inference</h4>
-            </div>
-            <div class="entry reveal-bottom-delay3">
-                
-                <div class="image">
-                    <img src="v1/img/application-3.jpg" alt="Person coding on a laptop, flanked by two monitors displaying colorful code." />
-                </div>
-                <h4>Data Science</h4>
-            </div>
-        </div>
-    </section>
+              </div>
+            </section> -->
 
-    <section id="pageContent-sec-started" aria-labelledby="pageContent-title-started" class="section-started">
-        <div class="text-content">
-            <h2 id="pageContent-title-started" class="color-gradient-light">Get Started</h2>
-            <h3 class="color-white">Sign up to be notified when ASUS Ascent GX10 becomes available.</h3>
-            <!-- <p class="txt_Notify color-white">Notify Me</p> -->
-            <a class="btn_Notify color-white" href="https://www.connect.asus.com/notify-me-202503" aria-label="“Notify Me” button" target="_blank">
-                <span>Notify Me</span></a>
-            <p class="reveal-bottom-delay1 color-white">Specifications and product images are subject to change.</p>
-        </div>
-    </section>
-    <!-- For PDC content -->
-    <!-- <section id="pdc">
-      <div class="product_gallery theme-white"></div>
-      <div class="product_awards theme-white"></div>
-      <div class="product_videos theme-white"></div>
-      <div class="product_medias theme-white"></div>
-    </section> -->
-    <!-- <section class="sec-video bg-black">
-      <div class="hd-container">
-        <div class="vid-container trigger-video-toggle">
-          <video src="v1/video/product.mp4" poster="v1/video/product.jpg" muted playsinline autoplay loop id="pageContent-video-product" width="1920" height="1080" aria-label="RT-BE50 angled views">
-            <track src="v1/video/product.vtt" kind="descriptions" srclang="en" label="English" default="">
-          </video>
-          <button type="button" class="vid-control" aria-controls="pageContent-video-product" aria-label="Pause ASUS RT-BE86U Product video" data-on="Pause ASUS RT-BE50 Product video" data-off="Play ASUS RT-BE50 Product video">
-            <img src="v1/img/play.svg" alt="" class="play" loading="lazy">
-            <img src="v1/img/pause.svg" alt="" class="pause" loading="lazy">
-          </button>
-        </div>
-        <div class="btn-container">
-          <button type="button" class="trigger-video hd-btn" aria-label="Click to watch the product video" aria-controls="pageContent-lightbox" aria-expanded="false" data-type="iframe" data-src="https://www.youtube.com/embed/uP3qJB3n4-Y" onclick="
-          dataLayer.push({
-          'event': 'data_layer_event',
-          'event_category_DL':'videos',
-          'event_action_DL':'played',
-          'event_label_DL':'Watch Now',
-          });">Watch Now <span></span></button>
-        </div>
-      </div>
-    </section> -->
+          </div>
+          
+          <script src="v1/banner/js/bundle.min.js"></script>
+          <script src="v1/js/bundle.js"></script>
+          <script src="v1/js/main.js"></script>
+          <script src="v1/js/add.js"></script>
+          <!-- <script src="v1/lib/jquery.navScroll.js"></script> -->
+          <!-- <script src="v1/lib/jquery.colorbox.js"></script> -->
+          <script>
+              $(function() {
+                  $('.overview_nav').navScroll({
+                      mobileDropdown: false,
+                      mobileBreakpoint: 768,
+                      scrollSpy: true
+                  });
 
-  </div>
-  
-  <script src="v1/banner/js/bundle.min.js"></script>
-  <script src="v1/js/bundle.js"></script>
-  <script src="v1/js/main.js"></script>
-  <script src="v1/js/add.js"></script>
-  <!-- <script src="v1/lib/jquery.navScroll.js"></script> -->
-  <!-- <script src="v1/lib/jquery.colorbox.js"></script> -->
-  <script>
-      $(function() {
-          $('.overview_nav').navScroll({
-              mobileDropdown: false,
-              mobileBreakpoint: 768,
-              scrollSpy: true
-          });
+                  $('#overview-nav ul li a').on('click', function() {
+                      $('#overview-nav ul li').removeClass('on');
+                      $(this).parent().addClass('on');
+                  });
 
-          $('#overview-nav ul li a').on('click', function() {
-              $('#overview-nav ul li').removeClass('on');
-              $(this).parent().addClass('on');
-          });
-
-          // mTop = $('#ROGPugioII-header')[0].offsetTop;
-          // sTop = $(window).scrollTop();
-          // result = mTop - sTop;
-          // console.log(result);
-      });
-  </script>
-  <!-- For PDC content -->
-  <!-- <script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <script type="text/javascript" src="https://dlcdnimgs.asus.com/js/webapi/odinpatch/pdc-odin-v1.js"></script>
-  <script>
-    function featuresRun() {
-      if (typeof window.asusPdcOdin === 'object' && typeof window.asusPdcOdin.create === 'function') {
-        window.asusPdcOdin.create({
-          website: 'global',
-          defaultGalleryIndex: 0,
-          enableGallery: true,
-          enableAwards: false,
-          enableVideos: false,
-          enableMedias: false,
-          // direction: 'rtl',
-          endCB: () => {
-            new ResizeObserver(ScrollTrigger.refresh()).observe(document.querySelector('#pdc'))
-          }
-        });
-      }
-    }
-  </script> -->
+                  // mTop = $('#ROGPugioII-header')[0].offsetTop;
+                  // sTop = $(window).scrollTop();
+                  // result = mTop - sTop;
+                  // console.log(result);
+              });
+          </script>
+          <!-- For PDC content -->
+          <!-- <script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+          <script type="text/javascript" src="https://dlcdnimgs.asus.com/js/webapi/odinpatch/pdc-odin-v1.js"></script>
+          <script>
+            function featuresRun() {
+              if (typeof window.asusPdcOdin === 'object' && typeof window.asusPdcOdin.create === 'function') {
+                window.asusPdcOdin.create({
+                  website: 'global',
+                  defaultGalleryIndex: 0,
+                  enableGallery: true,
+                  enableAwards: false,
+                  enableVideos: false,
+                  enableMedias: false,
+                  // direction: 'rtl',
+                  endCB: () => {
+                    new ResizeObserver(ScrollTrigger.refresh()).observe(document.querySelector('#pdc'))
+                  }
+                });
+              }
+            }
+          </script> -->
+        </body>
+</html>

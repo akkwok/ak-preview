@@ -6425,7 +6425,7 @@ screen and (max-width: 1023px) {
     text-align: center;
 }
 
-#hd .section-desktop ..h3 {}
+#hd .section-desktop .h3 {}
 
 #hd .section-desktop .intro {
     position: relative;
@@ -6444,7 +6444,19 @@ screen and (max-width: 1023px) {
     width: 100%;
     color: #fff;
 }
-
+#hd .section-desktop .pic_scalable{
+    position: relative;
+}
+#hd .section-desktop .pic_scalable .pic_info{
+    position: absolute;
+    color: #11d2ff;
+    padding: 0.5em;
+        font-family: "Roboto", "TTNormsProRegular", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+        font-size: 1.25em;
+    line-height: 1.4;
+    letter-spacing: 0;
+    font-weight: 300;
+}
 #hd .section-desktop .intro .text {
     width: 50%;
     padding: 0px 20px 0px 20px;
@@ -6460,6 +6472,9 @@ screen and (max-width: 1023px) {
 
 #hd .section-desktop .intro .image {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #hd .section-desktop .mini-title {
     color: #fff;
@@ -6527,6 +6542,9 @@ screen and (max-width: 1023px) {
     #hd .section-desktop .intro .image img {
         max-width: 90%;
         margin: 20px auto 0;
+    }
+    #hd .section-desktop .intro .pic_scalable img{
+        margin: 0 auto 20px;
     }
 }
 

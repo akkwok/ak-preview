@@ -644,12 +644,12 @@ body {
 #hd small,
 #hd a,
 #hd li {
-    font-family: "TTNormsProRegular", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+    font-family: "Roboto", "TTNormsProRegular", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 }
 
 #hd p {
     font-size: 1.25em;
-    line-height: 1.25;
+    line-height: 1.4;
     letter-spacing: 0;
     font-weight: 300
 }
@@ -738,6 +738,9 @@ body {
 
 #hd .color-white {
     color: white !important
+}
+#hd .color-blue {
+    color: #11d2ff !important
 }
 
 #hd .font-content {
@@ -2099,7 +2102,9 @@ screen and (max-width: 1023px) {
     background: #000;
     flex-direction: column;
 }
-
+#hd .sec-kv .info{
+    font-size: 22px;
+}
 #hd .sec-kv .hd-bg {
     width: 100%;
     /* height:0;
@@ -3966,7 +3971,7 @@ screen and (max-width: 1023px) {
 /*system*/
 #hd .sec-port .spec-wrapper.spec-system .p1 {
     top: 55%;
-    left: 21%;
+    left: 24%;
     width: 50%;
     max-width: 160px;
 }
@@ -6463,6 +6468,8 @@ screen and (max-width: 1023px) {
 #hd .section-desktop .intro .text b {
     font-size: 1.1em;
     color: #11d2ff;
+        margin-bottom: 0.2em;
+    display: inline-block;
     /* font-weight: 300; */
 }
 
@@ -6495,8 +6502,8 @@ screen and (max-width: 1023px) {
     -webkit-text-fill-color: transparent;
     display: inline-block;
     margin: 0;
-        font-size: 2.8em;
-    letter-spacing: -0.02em;
+        font-size: 2.75em;
+    letter-spacing: -0.025em;
 }
 
 @media screen and (max-width: 1280px) {
@@ -6885,7 +6892,17 @@ screen and (max-width: 1023px) {
 #hd .section-security {
     /* background: #e6ebf0; */
 }
-
+#hd .section-security h3{
+    text-align: left;
+    padding: 0 5px;
+    background-color: #1fb3ff;
+    background-image: -moz-linear-gradient(90deg, #1fb3ff 0%, #00f9ff);
+    background-image: -webkit-linear-gradient(90deg, #1fb3ff 0%, #00f9ff);
+    background-image: linear-gradient(90deg, #1fb3ff 0%, #00f9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
 #hd .section-security h2 sup{
     background-image: linear-gradient(90deg, #ff42e7 0%, #ff42e7 18%, #ff42e7 85%, #ff42e7);
 }
@@ -7011,8 +7028,8 @@ screen and (max-width: 1023px) {
     margin: 10px auto;
     padding: 1em 4em 1.2em;
     text-shadow: 0 0 10px #000;
-    background: -webkit-linear-gradient(right, #000 0%, #008cf7 15%, #00dfed 85%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(to right, #000 0%, #008cf7 15%, #00dfed 85%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(right, #000 0%, #008cf7 15%, #3500b0 85%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to right, #000 0%, #008cf7 15%, #3500b0 85%, rgba(0, 0, 0, 0) 100%);
     /* 設定 1px 邊框，但不指定顏色 */
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
@@ -7356,7 +7373,9 @@ screen and (max-width: 1023px) {
 #hd .section-models .hd-content {
     padding: 0 2em 0 0;
 }
-
+#hd .section-models h3:nth-of-type(n+2){
+    margin-top: 0.5em;
+}
 @media screen and (max-width: 950px) {
     #hd .section-models .hd-img-container img {
         padding: 0;
@@ -8657,5 +8676,9 @@ screen and (max-width: 1023px) {
         grid-area: 5 / 1 / 6 / 2
     } */
 }
+
+
+
+  
 
 /*# sourceMappingURL=hd-style.css.map */

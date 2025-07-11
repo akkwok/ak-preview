@@ -8526,7 +8526,9 @@ screen and (max-width: 1023px) {
     #hd .sec-ksp .ksp-container>li:nth-child(5) p {
         font-size: clamp(1em, 1vw, 1em) !important;
     }
-
+    #hd .sec-ksp .ksp-container>li:nth-child(5) p.p1 {
+        font-size: clamp(2em, 1vw, 1em) !important;
+    }
     #hd .sec-ksp .ksp-container>li:nth-child(5) ul {
         padding-left: 2em;
         margin-left: 0.5em;

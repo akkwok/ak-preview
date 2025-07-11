@@ -8697,8 +8697,91 @@ screen and (max-width: 1023px) {
     } */
 }
 
+/*#hd #ASUS-Datasheet*/
+#hd #ASUS-Datasheet{
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+        background: #fff;
+        padding-top: 5px;
+    padding-bottom: 4em;
+}
+#hd #ASUS-Datasheet .maintitle {
+    text-align: center;
+    width: 100%;
+    max-width: 1236px;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+#hd #ASUS-Datasheet a.Button_Datasheet{
+    border: 1px solid #818181 !important;
+    cursor: pointer;
+    padding: 11px 12px 11px 16px !important;
+    text-align: left !important;
+        border-radius: 4px;
+            -webkit-transition: all .3s;
+            display: inline-flex !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 48px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 197px;
+    height: auto !important;
+    min-width: 144px;
+        font-size: 1.1875rem;
+}
 
+#hd #ASUS-Datasheet a.Button_Datasheet .Button_Datasheet_Text{
+        color: #181818 !important;
+            display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 15px;
+    white-space: normal !important;
+    font-family: TT Norms Pro, Roboto, sans-serif;
+    -webkit-transition: all .3s;
+}
+#hd #ASUS-Datasheet a.Button_Datasheet .Button_Datasheet_arrowDownloadSVG{
+    height: 24px;
+    width: 24px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    outline: none;
+    margin-left: 10px;
+        
+}
+#hd #ASUS-Datasheet a.Button_Datasheet svg path{
+    -webkit-transition: all .3s;
+    stroke: #181818;
+}
 
-  
+#hd #ASUS-Datasheet a.Button_Datasheet:hover{
+    background: #0b63a8;
+        border: 1px solid #0b63a8 !important;
+    -webkit-transition: all .3s;
+}
+#hd #ASUS-Datasheet a.Button_Datasheet:hover .Button_Datasheet_Text{
+    color: #fff !important;
+    -webkit-transition: all .3s;
+}
+#hd #ASUS-Datasheet a.Button_Datasheet:hover svg path{
+    stroke: #fff;
+    -webkit-transition: all .3s;
+}
 
 /*# sourceMappingURL=hd-style.css.map */
